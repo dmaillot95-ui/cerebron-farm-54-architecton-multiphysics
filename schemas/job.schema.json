@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "job_id",
+    "farm_id",
+    "couplings",
+    "validation",
+    "evidence_level",
+    "status"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "farm_id": {
+      "const": 54
+    },
+    "couplings": {
+      "type": "array"
+    },
+    "validation": {
+      "type": "object"
+    },
+    "evidence_level": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}
