@@ -1,0 +1,16 @@
+{
+  "farm_id": 54,
+  "name": "ARCHITECTON MULTIPHYSICS Ω",
+  "domain": "multiphysics-orchestration",
+  "status": "SCAFFOLDED",
+  "dependencies": [
+    51,
+    52,
+    53
+  ],
+  "evidence_rules": [
+    "CLAIM <= EVIDENCE",
+    "SIMULATION != TEST",
+    "COUPLED COMPUTATION != VALIDATED MULTIPHYSICS"
+  ]
+}
