@@ -5,3 +5,5 @@ Coupled-physics orchestration farm. It coordinates specialized STRUCT (F51), CFD
 Scope: field exchange, coupling contracts, unit/interface checks, convergence criteria, conservation residuals and provenance across coupled analyses.
 
 Rules: REALITY > COHERENCE; EVIDENCE > CONFIDENCE; CLAIM <= EVIDENCE; SIMULATION != TEST; COUPLED COMPUTATION != VALIDATED MULTIPHYSICS.
+
+Validation trigger: 2026-09-18 batch verification.
