@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "engines": [
+    {
+      "engine_id": "MP-COUPLING-MVP",
+      "name": "Deterministic coupling-contract validator",
+      "category": "orchestration",
+      "version": "1",
+      "capabilities": [
+        "field exchange checks",
+        "unit checks",
+        "energy residual checks"
+      ],
+      "limitations": [
+        "not a multiphysics solver",
+        "no FSI solver yet"
+      ],
+      "validation_status": "MVP",
+      "benchmark_status": "PENDING"
+    }
+  ],
+  "delegates": [
+    {
+      "farm": 51,
+      "role": "STRUCT"
+    },
+    {
+      "farm": 52,
+      "role": "CFD"
+    },
+    {
+      "farm": 53,
+      "role": "THERMAL"
+    }
+  ]
+}
